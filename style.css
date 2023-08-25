@@ -11,21 +11,21 @@ body{
     padding: 0 10px;
     min-height: 100vh;
     align-items: center;
-    background: #3498db;
+    background-image: url(iimg/tech\ fundo.jpg);
     justify-content: center;
 }
 ::selection{
-    color: #fff;
-    background: #3498db;
+    color: #0a2b2b;
+    background: #0a2b2b;
 }
 .wrapper{
     height: 265px;
     max-width: 410px;
-    background: #fff;
+    background: #a1d4d4;
     border-radius: 7px;
     padding: 20px 25px 0;
     transition: height 0.2s ease;
-    box-shadow: 0 10px 30px #000000
+    box-shadow: 0 10px 30px #247272
 }
 .wrapper.active{
     height: 530px;
@@ -36,7 +36,7 @@ header h1{
 }
 header p{
     margin-top: 5px;
-    color: #e70a0a;
+    color: #247272;
     font-size: 16px;
 }
 .wrapper .form{
@@ -53,20 +53,20 @@ header p{
 .form input{
     font-size: 18px;
     padding: 0 17px;
-    border: 1px solid #999;
+    border: 1px solid #247272;
 }
 .form input:focus{
-    box-shadow: 0 3ox 6px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 3ox 6px #247272;
 }
 .form input::placeholder{
-    color: #999;
+    color: #247272;
 }
 .form button{
-    color: #fff;
-    cursor: pointer;
+    color: #000000;
+    cursor: crosshair;
     margin-top: 20px;
     font-size: 17px;
-    background: #3498db;
+    background: #247272;
 }
 .qr-code{
     opacity: 0;
@@ -96,7 +96,7 @@ header p{
         height: 510px;
     }
     header p{
-        color: #696969;
+        color: #00f7ff;
     }
     .form :where(input, button){
         height: 52px;
